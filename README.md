@@ -2,6 +2,10 @@
 
 > Vite Reload too slow for large web app development
 
+![Vite重载速度](https://github.com/yArna/parcel-vs-vite-vs-turbopack-hmr/assets/82231420/f568d336-6946-406f-a927-9f57ec90433c)
+
+
+
 Vite claims to be fast, and indeed, we initially experience good speed when using it on small projects. However, when we use it on a real world large web app, we encounter a poor experience: page reloading is extremely slow, and using the network panel in Devtool may result in freezing for several minutes.
 
 The reason is that Vite's current unbundle mechanism is not suitable for large web app development, as it reloads a large number of code files and generates numerous requests on every page refresh. While Vite has [Dependency Pre-Bundling](https://v2.vitejs.dev/guide/dep-pre-bundling.html) to solve third-party dependency issues, for large web app, our own codebase is also substantial. When a page has 500 source files simultaneously, the development experience becomes terrible, and this number is not uncommon for large web app. Our real projects have 1500 to 2500 source files.
