@@ -26,7 +26,7 @@ I believe this is a pressing issue that Vite needs to address because over time,
 |                        | Vite (4.3.9)  | Parcel (2.9.3) |
 | ---------------------- | ------------- | -------------- |
 | Components             | 2500          | 2500           |
-| Requests               | 2514          | 94             |
+| Requests               | 2514          | 4             |
 | Page Load              | 5.88s `100%`  | 0.12s `2%`     |
 | Devtool Network Freeze | 75.28s `100%` | 1.02s `1.3%`   |
 
