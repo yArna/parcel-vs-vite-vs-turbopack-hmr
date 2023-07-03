@@ -18,7 +18,7 @@ For large web app, the current unbundle mechanism is not suitable because there 
 
 I believe this is a pressing issue that Vite needs to address because over time, the projects of Vite users will continue to grow. When users realize that the development experience with Vite is deteriorating, they will face the dilemma of migrating to development bundling tools like Parcel. Vite has excellent development experience and ecosystem, and I hope it can solve this problem and retain users of large-scale web apps within the Vite ecosystem.
 
-## Numbers
+## Benchmark
 
 - Recorded over 5 runs
 - 2.4 GHz Intel Core i5 - MacBook Pro
@@ -32,5 +32,10 @@ I believe this is a pressing issue that Vite needs to address because over time,
 
 
 
+## Related
+- [Very slow browser dev-tools after migrating to Vite #12980](https://github.com/vitejs/vite/discussions/12980)
+- [Page reload on dev server is very slow in large codebase #7608](https://github.com/vitejs/vite/issues/7608)
+- [How to prevent creating 1000 chunks ? #11711](https://github.com/vitejs/vite/discussions/11711)
 ---
+
 [中文](./README_ZH.md)
