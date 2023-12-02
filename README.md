@@ -1,5 +1,10 @@
 # Parcel vs Vite Reload Benchmark
 
+
+
+> new  Benchmark: https://github.com/yArna/vite-vs-x
+
+
 > Vite Reload too slow for large web app development
 
 ![Vite重载速度](https://github.com/yArna/parcel-vs-vite-vs-turbopack-hmr/assets/82231420/f568d336-6946-406f-a927-9f57ec90433c)
